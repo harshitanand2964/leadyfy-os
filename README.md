@@ -20,15 +20,22 @@ Full-stack agency management SaaS prototype (Node.js, Express, MongoDB, React).
 - Client portal, notifications, dashboard analytics
 
 ## Run locally
+
 Backend:
-    cd backend
-    npm install
-    node server.js
+```
+cd backend
+npm install
+node server.js
+```
 
 Frontend:
-    cd frontend
-    npm install
-    npm run dev
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Backend needs a `.env` with MONGO_URI and JWT_SECRET.
 
 Backend needs a `.env` with MONGO_URI and JWT_SECRET.
 
